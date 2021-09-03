@@ -1,0 +1,48 @@
+// variables, mixins, placeholder, root, *, html, body
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #262626;
+    
+}
+
+@mixin main-name{
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    color: #bbb;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+@mixin sub-name {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    color: #bbb;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    }
+
+@mixin main-heading {
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    font-weight: 300;
+    color: #d3ab55;
+    margin-bottom: 40px;
+    
+}
+    
+@mixin sub-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: #bbb;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
