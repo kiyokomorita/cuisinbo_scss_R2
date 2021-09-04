@@ -1,21 +1,6 @@
 // reusable selectors
 
-// h1 {
-//     display: block;
-//     font-size: 2em;
-//     margin-block-start: 0.67em;
-//     margin-block-end: 0.67em;
-//     margin-inline-start: 0px;
-//     margin-inline-end: 0px;
-//     font-weight: bold;
-// }
-// .brand{
-//     display: flex;
-//     align-items:center;
-//     position: absolute;
-//     top: 15%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
+
 .logo{
     font-size: 70px;
     color: #d3ab55;
@@ -35,46 +20,10 @@
     height: 110px;
     }
    
-.main-btn {
-    width: 170px;
-    height: 45px;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #d3ab55;
-    background-color: transparent;
-    border: 1px solid #d3ab55;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.4s;
 
-    .main-btn:hover {
-        background-color: #d3ab55;
-        color: #262626; }
-     
-    //   }
 
-// h1.main-name {
-//     font-family: "Nunito", sans-serif;
-//     font-size: 50px;
-//     color: #bbb;
-//     font-weight: 300;
-//     letter-spacing: 2px;
-//     text-transform: uppercase;
-//     margin-bottom:-40px;
-//     }
 
-// .sub-name {
-//     font-family: "Josefin Sans", sans-serif;
-//     font-size: 18px;
-//     color: #bbb;
-//     text-align: center;
-//     font-weight: 300;
-//     letter-spacing: 2px;
-//     text-transform: uppercase;
-//     }
-}
+
 .about-us-right .star {
     font-size: 15px;
     color: #d3ab55;
@@ -102,9 +51,11 @@
         line-height: 1;
     }
 }
-.hamburger-menu .menu, .card-overlay, .card-img {
+.card-overlay, .card-img {
     width: 100%;
-    height: 100%; }
+    height: 100%; 
+    object-fit: cover;
+}
 
 
   

@@ -46,3 +46,78 @@ body{
     text-align: center;
 }
 
+@mixin main-btn{
+    width: 170px;
+    height: 45px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #d3ab55;
+    background-color: transparent;
+    border: 1px solid #d3ab55;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover{
+        background-color: #d3ab55;
+        color: #262626; 
+    }
+}
+
+
+    @mixin card-overlay {
+                position: absolute;
+                top: 0;
+                left: -100%;
+                background-color: rgba(211, 171, 85, 0.6);
+                color: #fff;
+                z-index: 10;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                transition: left 0.7s;
+                .card-overlay-heading {
+                    font-family: "Nunito", sans-serif;
+                    font-size: 50px;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    text-transform: capitalize;
+                }
+                .card-overlay-paragraph {
+                    font-family: "Josefin Sans", sans-serif;
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    text-transform: capitalize;
+                }
+                .card-overlay-btn {
+                    width: 150px;
+                    height: 40px;
+                    color: #d3ab55;
+                    background-color: #fff;
+                    font-family: "Josefin Sans", sans-serif;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    border: 1px solid #d3ab55;
+                    border-radius: 30px;
+                    outline: none;
+                    cursor: pointer;
+                }
+    } 
+       
+
+@mixin card{
+    width: 33.3333%;
+        height: 30vw;
+        position: relative;
+        overflow: hidden;
+}
+
+
+    
